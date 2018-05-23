@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 window.onload = function () {
     var boton = document.getElementById('one-button');
 
@@ -24,3 +25,11 @@ window.onload = function () {
         
 
 }
+=======
+window.onload
+    function oneButton(button) {
+        var usuario = document.getElementById("userName").value;
+        var texto = document.getElementById("welcome");
+        texto.innerHTML= "Bienvenid@ " + usuario;
+    }
+>>>>>>> upstream/master
